@@ -1,0 +1,79 @@
+/* ===== BODY (Center everything) ===== */
+body {
+    height: 100vh;
+    /* full screen height */
+    display: flex;
+    /* enable flexbox */
+    justify-content: center;
+    /* horizontal center */
+    align-items: center;
+    /* vertical center */
+    background-color: #f2f2f2;
+    /* light background */
+    margin: 0;
+    /* remove default spacing */
+    font-family: Arial, sans-serif;
+}
+
+/* ===== CARD CONTAINER ===== */
+.container {
+    width: 350px;
+    /* fixed card width */
+    background-color: white;
+    /* card color */
+    padding: 20px;
+    /* inner spacing */
+    border-radius: 10px;
+    /* rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* shadow effect */
+
+    display: flex;
+    flex-direction: column;
+    /* stack vertically */
+    gap: 15px;
+    /* space between sections */
+}
+
+/* ===== TITLE ===== */
+h1 {
+    text-align: center;
+    /* center text */
+    margin: 0;
+}
+
+/* ===== INPUT SECTION ===== */
+.input-section {
+    display: flex;
+    flex-direction: column;
+    /* input → input → button */
+    gap: 10px;
+}
+
+/* ===== INPUT BOXES ===== */
+input {
+    padding: 10px;
+    /* inner space */
+    font-size: 14px;
+    width: 100%;
+    /* full width */
+    box-sizing: border-box;
+    /* include padding in width */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* ===== BUTTON ===== */
+button {
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* ===== BUTTON HOVER EFFECT ===== */
+button:hover {
+    background-color: darkgreen;
+}
